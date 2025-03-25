@@ -20,3 +20,7 @@ Makefile*
 # Zksync
 .DS_store
 zkout/
+
+broadcast/
+
+.vscode/
