@@ -12,3 +12,11 @@ docs/
 
 # Dotenv file
 .env
+
+# Makefile
+Makefile
+Makefile*
+
+# Zksync
+.DS_store
+zkout/
