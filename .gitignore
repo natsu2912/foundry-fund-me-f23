@@ -22,5 +22,8 @@ Makefile*
 zkout/
 
 broadcast/
-
+lib/
+.github/
 .vscode/
+.gas-snapshot
+.gitmodules
