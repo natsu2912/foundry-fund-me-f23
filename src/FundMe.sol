@@ -53,6 +53,18 @@ contract FundMe {
         s_funders.push(msg.sender);
     }
 
+    /* Use this function to test sending data to a transaction with project "html-fund-me-cu" */
+    //function fundWithArgs(uint256 amount) public payable {
+    //    require(
+    //        msg.value.getConversionRate(s_priceFeed) >= MINIMUM_USD,
+    //        "You need to spend more ETH!"
+    //    );
+    //    require(amount == msg.value, "Amount mismatch!");
+    //    // require(PriceConverter.getConversionRate(msg.value) >= MINIMUM_USD, "You need to spend more ETH!");
+    //    s_addressToAmountFunded[msg.sender] += amount;
+    //    s_funders.push(msg.sender);
+    //}
+
     function getPriceFundMe() public view returns (uint256) {
         return PriceConverter.getPrice(s_priceFeed);
     }

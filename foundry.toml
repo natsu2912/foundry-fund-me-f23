@@ -9,4 +9,4 @@ remappings = [
     '@foundry-devops/=lib/foundry-devops/',
 ]
 fs_permissions = [{ access = "read", path = "./broadcast" }]
-ffi = true
+#ffi = true
